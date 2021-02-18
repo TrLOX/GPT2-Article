@@ -1,5 +1,5 @@
 # GPT2-article-large
-<!-- [![Run on Ainize](https://ainize.ai/images/run_on_ainize_button.svg)](https://ainize.web.app/redirect?git_repo=https://github.com/ha-mulan/gpt2-food-reviews) -->
+[![Run on Ainize](https://ainize.ai/images/run_on_ainize_button.svg)](https://ainize.web.app/redirect?git_repo=https://github.com/bakjiho/GPT2-Article-Large2)
 
 GPT2-article-large
 =================
