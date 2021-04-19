@@ -20,12 +20,6 @@ RUN apt-get install -y git-lfs
 
 RUN git clone https://huggingface.co/EleutherAI/gpt-neo-2.7B
 
-WORKDIR /app/gpt-neo-2.7B
-
-RUN cat a.tar* | tar xvf -
-
-RUN rm a.tar*
-
 WORKDIR /app
 
 COPY . .
