@@ -18,7 +18,7 @@ RUN bash script.deb.sh
 
 RUN apt-get install -y git-lfs
 
-RUN git clone https://huggingface.co/jihopark/GPT2-Article-Large2
+RUN git clone https://huggingface.co/EleutherAI/gpt-neo-2.7B
 
 WORKDIR /app/GPT2-Article-Large2
 
