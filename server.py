@@ -16,8 +16,8 @@ BATCH_SIZE = 1
 CHECK_INTERVAL = 0.1
 
 
-tokenizer = AutoTokenizer.from_pretrained("./GPT2-Article-Large2/")
-model = AutoModelWithLMHead.from_pretrained("./GPT2-Article-Large2/", return_dict=True)
+tokenizer = AutoTokenizer.from_pretrained("./gpt-neo-2.7B/")
+model = AutoModelWithLMHead.from_pretrained("./gpt-neo-2.7B/", return_dict=True)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model.to(device)
 
